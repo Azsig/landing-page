@@ -1,0 +1,89 @@
+body{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header,
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.text p,
+li a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Signup{
+    background-color: royalblue;
+    border: 1px royalblue;
+    color: white;
+    font-size: 18px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quo{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.que{
+    background-color: royalblue;
+
+}
+
+.que .Sig{
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    border: 2px white;
+}
+
+.top,
+.hero,
+ul,
+.content,
+.inf{
+    display: flex;
+}
+
+.top{
+    justify-content: space-between;
+}
+
+.hero{
+    margin: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+ .holder{
+    padding: 0px 180px;
+    margin: 20px;
+    background-color: #F9FAF8;
+ }
+
+.content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px;
+    margin-bottom: 80px;
+}
