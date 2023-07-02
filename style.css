@@ -37,6 +37,13 @@ li a{
 
 .quo{
     background-color: #E5E7EB;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction:column ;
+}
+
+.person{
+    align-self: flex-end;
 }
 
 .quote{
@@ -47,7 +54,7 @@ li a{
 
 .que{
     background-color: royalblue;
-
+    margin: 50px 100px;
 }
 
 .que .Sig{
@@ -61,7 +68,8 @@ li a{
 .hero,
 ul,
 .content,
-.inf{
+.inf,
+.kotak{
     display: flex;
 }
 
@@ -86,4 +94,12 @@ ul,
     align-items: center;
     margin: 0px 200px;
     margin-bottom: 80px;
+}
+
+.info{
+    margin: 20px;
+}
+
+.Sig{
+    border: #E5E7EB 2px;
 }
