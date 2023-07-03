@@ -22,11 +22,15 @@ li a{
     color: #E5E7EB;
 }
 
-.Signup{
+#Signup{
     background-color: royalblue;
-    border: 1px royalblue;
+    border-color: royalblue;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
     color: white;
     font-size: 18px;
+    padding: 10px 20px;
 }
 
 .title{
@@ -57,11 +61,16 @@ li a{
     margin: 50px 100px;
 }
 
-.que .Sig{
-    background-color: royalblue;
+.que #Sig{
+    background: royalblue;
     color: white;
     font-size: 18px;
-    border: 2px white;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: auto 0px;
+    padding: 5px 10px;
 }
 
 .top,
@@ -100,6 +109,16 @@ ul,
     margin: 20px;
 }
 
-.Sig{
-    border: #E5E7EB 2px;
+
+
+.kotak{
+    padding: 50px 100px;
+    justify-content: space-around;
+}
+
+.teks h1{
+    margin: 0px;
+}
+.teks{
+    color: #E5E7EB;
 }
